@@ -1,0 +1,21 @@
+{
+  "name": "openmoji-contrib-tool",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "git@github.com:felixhaeberle/openmoji-contrib-tool.git",
+  "author": "felixhaeberle <kontakt@felixhaeberle.de>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "@octokit/rest": "^17.1.0",
+    "dotenv": "^8.2.0",
+    "github-api": "^3.3.0",
+    "nodemon": "^2.0.2"
+  }
+}
